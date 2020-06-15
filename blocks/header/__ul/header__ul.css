@@ -1,0 +1,15 @@
+.header__ul {
+    padding-top: 13px;
+}
+
+@media (max-width: 768px) {
+    .header__ul {
+        padding-top: 17px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header__ul {
+        padding-top: 5px;
+    }
+}

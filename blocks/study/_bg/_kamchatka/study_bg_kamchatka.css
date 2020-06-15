@@ -1,0 +1,11 @@
+.study_bg_kamchatka {
+    background-image: url('../../../../images/kamchatka.jpg');
+    background-size: cover;
+}
+
+@media (max-width: 425px) {
+    .study_bg_kamchatka {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}

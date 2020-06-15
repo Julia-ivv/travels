@@ -1,0 +1,45 @@
+@import url('./header__page.css');
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #ffffff;
+    background-color: #2a2c2f;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 1280px) {
+    .page {
+        max-width: 1280px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .page {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 375px) {
+    .page {
+        max-width: 375px;
+    }
+}
+
+@media (max-width: 320px) {
+    .page {
+        max-width: 320px;
+    }
+}

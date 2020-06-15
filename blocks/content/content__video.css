@@ -1,0 +1,29 @@
+.content__video{
+    margin-top: 113px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1280px) {
+    .content__video {
+        margin-top: 102px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content__video {
+        margin-top: 115px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content__video {
+        margin-top: 112px;
+    }
+}
+
+@media (max-width: 425px) {
+    .content__video {
+        margin-top: 70px;
+    }
+}

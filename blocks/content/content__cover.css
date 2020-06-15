@@ -1,0 +1,35 @@
+.content__cover {
+    margin-top: 102px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1280px) {
+    .content__cover {
+        margin-top: 97px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content__cover {
+        margin-top: 98px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content__cover {
+        margin-top: 49px;
+    }
+}
+
+@media (max-width: 425px) {
+    .content__cover {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 320px) {
+    .content__cover {
+        margin-top: 17px;
+    }
+}

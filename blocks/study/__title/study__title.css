@@ -1,0 +1,53 @@
+.study__title{
+    position: relative;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    color: #ffffff;
+    width: 61%; 
+    margin: 12px 0 10px 30px;
+}
+
+@media (max-width: 1280px) {
+    .study__title {
+        margin-bottom: 13px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .study__title {
+        margin-bottom: 9px;
+        margin-top: 13px;
+        margin-left: 28px;
+        width: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .study__title {
+        margin-bottom: 8px;
+        margin-top: 6px;
+        margin-left: 25px;
+        width: 78%;
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 425px) {
+    .study__title {
+        margin-left: 25px;
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 8px;
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 320px) {
+    .study__title {
+        width: 100%;
+        margin-left: 16px;
+    }
+}

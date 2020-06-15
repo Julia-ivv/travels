@@ -1,0 +1,37 @@
+.comments__content-subtitle{
+    width: 54%;
+    margin: auto;
+    margin-bottom: 61px;
+}
+
+@media (max-width: 1280px) {
+    .comments__content-subtitle {
+        width: 61%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .comments__content-subtitle {
+        width: 70%;
+        margin-bottom: 64px;
+    }
+}
+
+@media (max-width: 768px) {
+    .comments__content-subtitle {
+        width: 100%;
+        margin-bottom: 63px;
+    }
+}
+
+@media (max-width: 425px) {
+    .comments__content-subtitle {
+        margin-bottom: 43px;
+    }
+}
+
+@media (max-width: 320px) {
+    .comments__content-subtitle {
+        margin-bottom: 34px;
+    }
+}

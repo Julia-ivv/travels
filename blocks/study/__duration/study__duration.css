@@ -1,0 +1,36 @@
+.study__duration{
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    color: #ffffff;
+    margin: 94px 0 0 30px;
+}
+
+@media (max-width: 1280px) {
+    .study__duration {
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .study__duration {
+        margin-top: 23px;
+        margin-left: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .study__duration {
+        margin-top: auto;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .study__duration {
+        margin-left: 16px;
+    }
+}

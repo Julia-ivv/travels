@@ -1,0 +1,38 @@
+@import url('./__icon-play/study__icon-play.css');
+@import url('./__duration/study__duration.css');
+@import url('./__title/study__title.css');
+@import url('./__subtitle/study__subtitle.css');
+@import url('./__bg/study__bg.css');
+@import url('./_bg/_kamchatka/study_bg_kamchatka.css');
+@import url('./_bg/_observatory/study_bg_observatory.css');
+
+.study {
+    width: 49%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.study:hover .study__bg {
+    opacity: .7;
+    transition: opacity 1.2s ease;
+}
+
+@media (max-width: 425px) {
+    .study {
+        width: 100%;
+        margin-bottom: 6px;
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .study {
+        min-height: 192px;
+    }
+}

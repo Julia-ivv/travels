@@ -1,0 +1,9 @@
+.footer__link {
+    display: inline;
+}
+
+@media (max-width: 425px) {
+    .footer__link {
+        display: block;
+    }
+}

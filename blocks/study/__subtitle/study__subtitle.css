@@ -1,0 +1,36 @@
+.study__subtitle{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #ffffff;
+    margin: 0 0 30px 30px;
+}
+
+@media (max-width: 1280px) {
+    .study__subtitle {
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .study__subtitle {
+        margin-bottom: 35px;
+        margin-left: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .study__subtitle {
+        margin-left: 25px;
+        margin-bottom: 23px;
+    }
+}
+
+@media (max-width: 320px) {
+    .study__subtitle {
+        margin-bottom: 15px;
+        margin-left: 16px;
+    }
+}

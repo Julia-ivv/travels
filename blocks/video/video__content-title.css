@@ -1,0 +1,39 @@
+.video__content-title{
+    margin: auto;
+    margin-bottom: 30px;
+    width: 61%;
+}
+
+@media (max-width: 1280px) {
+    .video__content-title {
+        width: 62%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .video__content-title {
+        width: 80%;
+        margin-bottom: 31px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video__content-title {
+        width: 59%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .video__content-title {
+        width: 95%;
+        margin-bottom: 23px;
+    }
+}
+
+@media (max-width: 320px) {
+    .video__content-title {
+        width: 97%;
+        margin-bottom: 20px;
+    }
+}

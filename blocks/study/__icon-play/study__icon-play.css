@@ -1,0 +1,51 @@
+.study__icon-play{
+    width: 41px;
+    height: 41px;
+    position: relative;
+    margin: 28px 0 0 27px;
+}
+
+.study__icon-play:hover {
+    transform: rotate(360deg);
+    transition: transform 1.5s ease;
+}
+
+@media (max-width: 1280px) {
+    .study__icon-play {
+        margin-bottom: 29px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .study__icon-play {
+        margin-bottom: 30px;
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .study__icon-play {
+        margin-bottom: 17px;
+        margin-left: 25px;
+        margin-top: 23px;
+        width: 42px;
+        height: 42px;
+    }
+}
+
+@media (max-width: 425px) {
+    .study__icon-play {
+        margin-bottom: 20px;
+        margin-top: 24px;
+        width: 41px;
+        height: 41px;
+    }
+}
+
+@media (max-width: 320px) {
+    .study__icon-play {
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+}

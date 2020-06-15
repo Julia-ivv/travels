@@ -1,0 +1,12 @@
+.video__container{
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+@media (max-width: 425px) {
+    .video__container {
+        flex-direction: column;
+    }
+}

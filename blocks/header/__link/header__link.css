@@ -1,0 +1,19 @@
+@import url('./_active/header__link_active.css');
+
+.header__link {
+    color: #ffffff;
+    margin: 0;
+    margin-left: 18px;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    opacity: .3;
+    transition: opacity 1.2s ease;
+}
+
+@media (max-width: 768px) {
+    .header__link {
+        margin-left: 14px;
+    }
+}

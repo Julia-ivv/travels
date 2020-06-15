@@ -1,0 +1,21 @@
+.content-title{
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    font-size: 72px;
+    line-height: 78px;
+}
+
+@media (max-width: 768px) {
+    .content-title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 425px) {
+    .content-title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

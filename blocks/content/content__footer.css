@@ -1,0 +1,28 @@
+.content__footer {
+    margin: 155px auto 48px;
+}
+
+@media (max-width: 1280px) {
+    .content__footer {
+        margin-top: 157px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content__footer {
+        margin-top: 152px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content__footer {
+        margin-top: 99px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    .content__footer {
+        margin-top: 51px;
+    }
+}

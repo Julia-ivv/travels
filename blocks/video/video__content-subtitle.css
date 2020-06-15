@@ -1,0 +1,38 @@
+.video__content-subtitle{
+    width: 54%;
+    margin: auto;
+    margin-bottom: 66px;
+}
+
+@media (max-width: 1280px) {
+    .video__content-subtitle {
+        width: 56%;
+        margin-bottom: 65px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .video__content-subtitle {
+        width: 74%;
+    }
+}
+
+@media (max-width: 768px) {
+    .video__content-subtitle {
+        width: 95%;
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 425px) {
+    .video__content-subtitle {
+        width: 100%;
+        margin-bottom: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .video__content-subtitle {
+        margin-bottom: 28px;
+    }
+}

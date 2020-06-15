@@ -1,0 +1,28 @@
+.header__logo{
+    width: 15%; 
+    height: auto; 
+}
+
+@media (max-width: 1024px) {
+    .header__logo {
+        width: 19%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__logo {
+        width: 25%;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__logo {
+        width: 41%;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__logo {
+        width: 49%;
+    }
+}
